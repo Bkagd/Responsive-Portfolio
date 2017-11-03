@@ -143,7 +143,7 @@ h3,
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 65px;
 }
 
 .main-section {
@@ -238,9 +238,40 @@ input[type=submit] {
   border: 0 none;
 }
 
+/* Media 980px */
+@media only screen and (max-width: 980px) and (min-width: 768.1) {
+  #masthead {
+   position: fixed;
+   float: left;
+   margin: 0 0 30px;
+   overflow: auto;
+  }
+
+  nav {
+
+  float: right;
+  vertical-align: center;
+  padding-top: 50px;
+   
+}
+
+.auth-image {
+    width: 250px;
+    float: left;
+  }
+
+#main-container {
+  padding-top: 130px;
+}
+
+
+
+}
+
+
 /* Media 768px */
 
-@media screen (max-width=768px) {
+@media only screen and (max-width: 768px) and (min-width: 640.1px) {
  #masthead {
    position: fixed;
    float: left;
@@ -251,10 +282,22 @@ input[type=submit] {
   nav {
 
     float: right;
+    vertical-align: center;
+    padding-top: 50px;
    
   }
 
   .auth-image {
     width: 250px;
+    float: left;
+  }
+
+  .work {
+    width: 40%;
+    float: left;
+  }
+  
+  #main-container {
+    padding-top: 130px;
   }
 }
