@@ -239,7 +239,7 @@ input[type=submit] {
 }
 
 /* Media 980px */
-@media only screen and (max-width: 980px) and (min-width: 768.1) {
+@media only screen and (max-width: 980px) and (min-width: 769px) {
   #masthead {
    position: fixed;
    float: left;
@@ -262,6 +262,13 @@ input[type=submit] {
 
 #main-container {
   padding-top: 130px;
+}
+.main-section {
+  width: 50%;
+}
+
+.sidebar {
+  float: right;
 }
 
 
