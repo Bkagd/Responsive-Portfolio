@@ -238,8 +238,8 @@ input[type=submit] {
   border: 0 none;
 }
 
-/* Media 980px */
-@media only screen and (max-width: 980px) and (min-width: 769px) {
+/* Media 980px (I changed the max width to 2000px because my screen was larger than 980 px and it would revert to the smaller screen style. */
+@media only screen and (max-width: 2000px) and (min-width: 769px) {
   #masthead {
    position: fixed;
    float: left;
