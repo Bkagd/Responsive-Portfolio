@@ -114,7 +114,6 @@ footer {
 .sidebar {
   float: left;
   width: 100%;
-  max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
@@ -263,17 +262,20 @@ input[type=submit] {
 #main-container {
   padding-top: 130px;
 }
+
 .main-section {
   width: 50%;
 }
 
 .sidebar {
   float: right;
+  width: 100%;
+  max-width: 270px;
 }
 
 
 
-}
+
 
 
 /* Media 768px */
@@ -306,5 +308,10 @@ input[type=submit] {
   
   #main-container {
     padding-top: 130px;
+  }
+  .sidebar {
+    float: right;
+    width: 100%;
+    max-width: 270px;
   }
 }
